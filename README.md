@@ -2,10 +2,6 @@
 Sample baidu doctor app for Android
 all resource from baidu doctor app
 
-##Build Status on
-Git master:![](https://github.com/ruizhang81/BaiduDoctor/blob/master/Screenshot/build.svg)
-Git stable:![](https://github.com/ruizhang81/BaiduDoctor/blob/master/Screenshot/build.svg)
-
 ##Image
 ![](https://github.com/ruizhang81/BaiduDoctor/blob/master/Screenshot/bodyman.png)
 ![](https://github.com/ruizhang81/BaiduDoctor/blob/master/Screenshot/manback.png)
