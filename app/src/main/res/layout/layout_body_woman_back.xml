@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/body_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/woman_back_view" />
+
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intelligence_highlight_0212"
+        android:layout_marginTop="78dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0212"
+        android:src="@drawable/intelligence_highlight_0213"
+        android:layout_marginTop="-4dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0214"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0213"
+        android:src="@drawable/intelligence_highlight_0214"
+        android:layout_marginTop="-4dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

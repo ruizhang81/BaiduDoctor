@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/body_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/woman_bigface" />
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/intelligence_highlight_0201" />
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0205"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0201"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/intelligence_highlight_0205" />
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0201"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/intelligence_highlight_0202" />
+
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0203"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0201"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/intelligence_highlight_0203" />
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0206"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0202"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/intelligence_highlight_0206" />
+
+
+    <ImageView
+        android:id="@+id/intelligence_highlight_0204"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intelligence_highlight_0203"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/intelligence_highlight_0204" />
+
+</RelativeLayout>
